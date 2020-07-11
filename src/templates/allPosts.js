@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
+import Seo from '../components/Seo'
 
 function Posts({ pageContext, data }) {
   const post = data.allMdx.edges
@@ -13,6 +14,7 @@ function Posts({ pageContext, data }) {
   
   return (
     <div>
+      <Seo />
       {post.map(item => (
         <div>{item.node.frontmatter.title}</div>
       ))}

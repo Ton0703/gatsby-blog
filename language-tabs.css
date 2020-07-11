@@ -24,12 +24,22 @@
     color: black;
   }
   .gatsby-highlight pre[class~="language-css"]::before {
-    content: "js";
+    content: "css";
     background: #ff9800;
     color: white;
   }
   .gatsby-highlight pre[class~="language-html"]::before {
-    content: "js";
+    content: "html";
     background: #005a9c;
     color: white;
+  }
+  .gatsby-highlight pre[class~="language-graphql"]::before {
+    content: "graphql";
+    background: rgb(225, 0, 152);
+    color: white;
+  }
+  .gatsby-highlight pre[class~="language-jsx"]::before {
+    content: "jsx";
+    background: rgb(97, 218, 251);
+    color: black;
   }

@@ -1,4 +1,11 @@
 module.exports = {
+  siteMetadata: {
+    title: 'My Blog',
+    description: 'A Simpal Blog',
+    image: '/ins.svg',
+    twitterUsername: '',
+    author: 'Ton'
+ },
   /* Your site config here */
   plugins: [
     {

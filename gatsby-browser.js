@@ -16,6 +16,7 @@ const components = {
       return <pre {...preProps} />
     }
   },
+  wrapper: ({children}) => <>{children}</>
 }
 
 // const GlobalStyles = createGlobalStyle`
